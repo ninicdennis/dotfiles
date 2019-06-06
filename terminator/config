@@ -1,0 +1,29 @@
+[global_config]
+  borderless = True
+  title_font = Tamsyn Bold 12
+  title_inactive_bg_color = "#8d9295"
+  title_inactive_fg_color = "#cad1d5"
+  title_transmit_bg_color = "#121a21"
+  title_transmit_fg_color = "#cad1d5"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#121a21"
+    cursor_color = "#cad1d5"
+    font = Tamsyn Bold 12
+    foreground_color = "#cad1d5"
+    palette = "#121a21:#5b5f65:#a36257:#b79962:#4c689a:#88718f:#6cadc6:#cad1d5:#8d9295:#5b5f65:#a36257:#b79962:#4c689a:#88718f:#6cadc6:#cad1d5"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
